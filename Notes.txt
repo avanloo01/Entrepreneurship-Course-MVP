@@ -1,0 +1,7 @@
+Color Palette
+-------------
+Cloud - #CECBC8
+Black - #28221E 
+Brown - #614E41
+Mud - #7F6951
+Creme - #F4EBD0
