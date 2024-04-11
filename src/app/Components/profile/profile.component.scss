@@ -1,0 +1,67 @@
+::ng-deep .mat-tab-label-active {
+    color: #ff0000;
+    /* Change this to your desired color */
+}
+h1 {
+    font-family: "Prata", serif;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+table thead th {
+    border-bottom: 2px solid #000;
+    text-align: left;
+}
+
+table tbody td {
+    text-align: left;
+}
+
+.table_component {
+    overflow: auto;
+    width: 100%;
+    margin-top: 1vw;
+    margin-left: 1vw;
+}
+
+.table_component table {
+    border: 1px none #dededf;
+    height: 100%;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 1px;
+    text-align: left;
+}
+
+.table_component caption {
+    caption-side: top;
+    text-align: left;
+}
+
+.table_component th {
+    border: 1px none #dededf;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0px;
+}
+
+.table_component td {
+    border: 1px none #dededf;
+    background-color: #ffffff;
+    color: #2b2b2b;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.profile-section{
+    display: flex;
+    align-items: center;
+    
+}
+.profile-info {
+    padding: 1rem;
+}
