@@ -2,12 +2,24 @@
     <mat-tab label="Profile" style="font-family: 'Montserrat';"> 
         <div style="margin: 1em; font-family: 'Montserrat';">
         <div class="profile-section">
-            <img src="https://imageio.forbes.com/specials-images/imageserve/5ed00f17d4a99d0006d2e738/0x0.jpg" style="width: 10em;"/>
+            <img src="../../../assets/Boyfriend.png" style="width: 10em;"/>
             <div class="profile-info">
-                <h1>Kanye West</h1>
-                <p>[Profile Description] The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
-                A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
-                bred for hunting.</p>
+                <h1>Casey Bronson</h1>
+                <p><b>Expertise:</b></p>
+                <ul>
+                    <li>Designer Fashion (Clothing, Handbags, Accessories): Specializing in high-end brands (e.g., Chanel, Louis
+                        Vuitton, Gucci) with a keen eye for spotting counterfeits.</li>
+                    <li>Vintage Musical Instruments (Guitars, Violins, Saxophones): Deep knowledge of instrument construction,
+                        materials, and historical details to ensure authenticity.</li>
+                </ul>
+                <p><b>How I Can Help You:</b></p>
+                <ul>
+                    <li>Provide detailed authentication reports with clear pictures and explanations for peace of mind before you buy.
+                    </li>
+                    <li>Help you identify the specific model, year, and any unique features of the item.</li>
+                    <li>Spot potential red flags and advise on fair market value.</li>
+                    <li>Offer guidance on reputable sellers in the secondhand market.</li>
+                </ul>
             </div>
         </div>
         <div class="table_component" role="region" tabindex="0">
@@ -40,15 +52,9 @@
             <mat-card>
                 <mat-card-header style="margin-bottom: 1em;">
                     <b>Customer 1</b>
-                    
                 </mat-card-header>
                 <mat-card-content>
-                    What you doin' in the club on a Thursday?
-                    She say she only here for her girl birthday
-                    They ordered champagne but still look thirsty
-                    Rock Forever 21, but just turned thirty
-                    I know I got a bad reputation
-                    Walk-around-always-mad reputation
+                    I was about to buy a vintage Rolex online when I got nervous about its authenticity. Thankfully, I found Casey's profile. They were incredibly knowledgeable and quickly identified some red flags in the seller's pictures. Casey even provided a detailed explanation of why it was likely fake, which helped me avoid a huge waste of money. I highly recommend their services for anyone buying expensive secondhand items!
                     <br>
                     <br>
                     ★★★
@@ -59,16 +65,11 @@
             </mat-card>
             <mat-card>
                 <mat-card-header style="margin-bottom: 1em;">
-                    <b>Customer 1</b>
-            
+                    <b>Customer 2</b>
                 </mat-card-header>
                 <mat-card-content>
-                    What you doin' in the club on a Thursday?
-                    She say she only here for her girl birthday
-                    They ordered champagne but still look thirsty
-                    Rock Forever 21, but just turned thirty
-                    I know I got a bad reputation
-                    Walk-around-always-mad reputation
+                    Casey seems to have a good eye for detail. They were able to authenticate a pre-owned designer bag I was
+                    interested in, but it took a couple of days to get a response back. Communication could be a bit faster, but overall, I got the information I needed.
                     <br>
                     <br>
                     ★★★
@@ -79,19 +80,13 @@
             </mat-card>
             <mat-card>
                 <mat-card-header style="margin-bottom: 1em;">
-                    <b>Customer 1</b>
-            
+                    <b>Customer 3</b>
                 </mat-card-header>
                 <mat-card-content>
-                    What you doin' in the club on a Thursday?
-                    She say she only here for her girl birthday
-                    They ordered champagne but still look thirsty
-                    Rock Forever 21, but just turned thirty
-                    I know I got a bad reputation
-                    Walk-around-always-mad reputation
+                    I wasn't impressed with [Expert Name]'s service. I hired them to authenticate a rare guitar, but their report felt generic and lacked specific details. I contacted them for clarification, but never received a response. For the price, I expected a more thorough and attentive service.
                     <br>
                     <br>
-                    ★★★
+                    ★★
                     <br>
                     <br>
                     <span style="background-color: #FFB996; padding: 0.4rem; border-radius: 20px;">Instruments</span>
@@ -100,6 +95,58 @@
         </div>
         </div>
     </mat-tab>
-    <mat-tab label="Chat"> here, you have a chat</mat-tab>
-    <mat-tab label="Schedule"> here, you have the dates & times they would be available</mat-tab>
+    <mat-tab label="Schedule">
+        <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+            <h3>Casey's Availabilities for Pick Up</h3>
+            <mat-card style="display: flex; justify-content: center;" class="Calendar-Card">
+                <mat-calendar [(selected)]="selected" style="width: 40vw;" ></mat-calendar>
+            </mat-card>
+        </div>
+    </mat-tab>
+    <mat-tab label="Chat">
+        <div class="page-content page-container" id="page-content">
+            <div class="padding">
+                <div class="row container d-flex justify-content-center">
+                    <div class="col-md-6">
+                        <div class="card card-bordered">   
+                            <div class="ps-container ps-theme-default ps-active-y" id="chat-content"
+                                style="overflow-y: scroll !important; height:400px !important;">
+                                <div class="media media-chat">
+                                    <div class="media-body">
+                                        <p>Hi</p>
+                                        <p>I sent your Louis Vuitton bag through DHL</p>
+                                        <p class="meta"><time datetime="2018">23:58</time></p>
+                                    </div>
+                                </div>        
+                                <div class="media media-chat media-chat-reverse">
+                                    <div class="media-body">
+                                        <p>Thank you so much for your help!</p>
+                                        <p class="meta"><time datetime="2018">00:06</time></p>
+                                    </div>
+                                </div>
+                                <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;">
+                                    <div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div>
+                                </div>
+                                <div class="ps-scrollbar-y-rail" style="top: 0px; height: 0px; right: 2px;">
+                                    <div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 2px;"></div>
+                                </div>
+                            </div>
+        
+                            <div class="publisher bt-1 border-light">
+                                <input class="publisher-input" type="text" placeholder="Write something">
+                                <span class="publisher-btn file-group">
+                                    <i class="fa fa-paperclip file-browser"></i>
+                                    <input type="file">
+                                </span>
+                                <a class="publisher-btn" href="#" data-abc="true"><i class="fa fa-smile"></i></a>
+                                <a class="publisher-btn text-info" href="#" data-abc="true"><i
+                                        class="fa fa-paper-plane"></i></a>
+                            </div>
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </mat-tab>
 </mat-tab-group>
