@@ -16,8 +16,12 @@ mat-toolbar {
 
 .header .title {
     margin: 0;
-    font-size: 2em;
+    font-size: calc(16px + 1.5vw);
     font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+.icon {
     display: flex;
     align-items: center;
 }
