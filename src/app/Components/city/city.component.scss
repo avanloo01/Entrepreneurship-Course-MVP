@@ -61,7 +61,12 @@ table tbody td {
     width: 100%;
     margin-top: 1vw;
     margin-left: 1vw;
-    font-size: calc(0.5rem + 1vw);
+    font-size: calc(10px + 0.5vw);
+}
+@media screen and (min-width: 1200px) {
+    .table_component {
+        font-size: 1em;
+    }
 }
 .table_component table {
     border: 1px none #dededf;
